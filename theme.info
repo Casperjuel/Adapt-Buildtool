@@ -1,0 +1,25 @@
+name        = {{ profile }}
+description = {{ profile }} theme
+screenshot  = screenshot.png
+
+core        = 7.x
+engine      = phptemplate
+base theme  = adapt_basetheme
+
+; Regions
+; ------------------------
+;regions[content] = Content
+
+; Stylesheets
+; ------------------------
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/screen.css
+
+; Javascripts
+; ------------------------
+scripts[] = js/modernizr.js
+scripts[] = js/main.js
+
+; Panel layouts
+; ------------------------
+plugins[panels][layouts] = templates/layouts

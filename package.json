@@ -1,18 +1,18 @@
 {
-  "name": "Adapt Frontend",
+  "name": "adapt-frontend",
   "version": "1.0.0",
   "description": "Build tool for adapt",
   "dependencies": {
-    "node-sass":"*",
-    "node-neat":"*",
-    "node-bourbon":"*",
-    "livereload":"*",
-    "npm-check":"*"
+    "node-sass": "*",
+    "node-neat": "*",
+    "node-bourbon": "*",
+    "livereload": "*",
+    "npm-check": "*"
   },
   "devDependencies": {},
   "scripts": {
-    "watch": "node-sass -w sass/screen.scss css/",
+    "watch": "node-sass -w sass/screen.scss css/screen.css"
 
   },
-  "author": "adapt @ adapt.dk",
+  "author": "adapt @ adapt.dk"
 }
